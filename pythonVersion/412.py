@@ -14,7 +14,7 @@ class Solution(object):
             return 'Fizz'
         if n % 5 == 0:
             return 'Buzz'
-        return n
+        return str(n)
 
     def fizzBuzz(self, n):
         """
@@ -25,3 +25,4 @@ class Solution(object):
 
 a = Solution()
 print a.fizzBuzz(15)
+
